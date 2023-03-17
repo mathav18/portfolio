@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Great+Vibes&family=Lato:wght@100&family=Lobster&family=Neonderthaw&family=Noto+Sans+Khmer:wght@600&family=Noto+Sans+Symbols+2&family=Orbitron&family=Outfit&family=Pacifico&family=Poppins&family=Rajdhani:wght@300&family=Roboto+Mono:wght@500&family=Roboto:ital@1&family=Shantell+Sans:wght@300&family=Ubuntu:wght@300&display=swap');
+      </style>
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="whole__container">
+        <div class="navbar">
+
+            <h1>Mathavan</h1>
+            <p>
+            <a class="moon" onclick="nav(0)"  href="#homeparent">Home</a>
+            <a class="moon" onclick="nav(1)"  href="#aboutparent">About</a>
+            <a class="moon" onclick="nav(2)"  href="#skillsParent">Skills</a>
+            <a class="moon" onclick="nav(3)"  href="#projectparent">Projects</a>
+            <a class="moon" onclick="nav(4)"  href="#contactparent">Contact</a>
+            </p>
+
+            <button class="btn">Hire Me</button>
+        </div>
+        <div class="feed" onscroll="projecgt__div__scroll()">
+
+
+            <div class="home" id="homeparent" style="background: black;">
+                <div style="background-image: url(ZSTTK308-removebg-preview.png);" class="profileDiv"></div>
+                <div class="name__role">
+                    <p>I'm</p>
+                    <h1 style="color:black">Mathavan</h1>
+                    <p>Front-End Developer</p>
+                </div>
+            </div>
+
+
+            <div class="about" id="aboutparent">
+                <div class="About__div">
+                    <h1>ABOUT</h1>
+                    <div class="span__parent"> <span > ABOUT ME</span></div>
+                   </div>
+
+                   <div class="Details">
+                    <img src="game.gif">
+                    <div class="text__details">
+                        <h1>Front-End  & Web Developer</h1>
+                        <p>Hi,I am Mathavan.I am from zoho schools of technology,Tenkasi.
+                            I was born and brought up in Surandai and I still live here.My dad is a Farmer,My mom is a Beedi Worker and I have one sister.I am a EEE student and started learning about programming after entering Zoho. </p>
+                            <div class="details__bottom">
+                                <div class="email__div"> <span>Mail :</span> <p> mathavan.c@zohocorp.com</p></div>
+                                <div class="email__div"> <span>ZSID :</span> <p> ZSTTK308</p></div>
+                                
+                            </div>
+                        </div>
+                   </div>
+            </div>
+
+
+            <div class="about" id="skillsParent">
+                <div class="About__div">
+                    <h1>Skills</h1>
+                    <div class="span__parent"> <span >Skills</span></div>
+                   </div>
+
+                   <div class="skills" > 
+                  
+                    <div class="name__percentage">
+                        <div class="name"> <p>HTML</p><p>90%</p> </div>
+                        <div class="line">
+                            <div class="percentage" id="ninety"></div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="name__percentage">
+                        <div class="name"> <p>CSS</p><p>90%</p> </div>
+                        <div class="line">
+                            <div class="percentage"  id="ninety"></div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="name__percentage">
+                        <div class="name"> <p>JAVASCRIPT</p><p>90%</p> </div>
+                        <div class="line">
+                            <div class="percentage"  id="ninety"></div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="name__percentage">
+                        <div class="name"> <p>JQUERY</p><p>50%</p> </div>
+                        <div class="line">
+                            <div class="percentage" style="width:50%;"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="name__percentage">
+                        <div class="name"> <p>REACT JS</p><p>50%</p> </div>
+                        <div class="line">
+                            <div class="percentage" style="width:50%;"></div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="name__percentage">
+                        <div class="name"> <p>NODE JS</p><p>80%</p> </div>
+                        <div class="line">
+                            <div class="percentage" style="width:80%;"></div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="name__percentage">
+                        <div class="name"> <p>JAVA</p><p>50%</p> </div>
+                        <div class="line">
+                            <div class="percentage" style="width:50%;"></div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="name__percentage">
+                        <div class="name"> <p>MYSQL</p><p>80%</p> </div>
+                        <div class="line">
+                            <div class="percentage" style="width:80%;"></div>
+                        </div>
+                    </div>
+
+
+            </div>
+        </div>
+
+
+
+        <div class="projects__parent" id="projectparent" >
+            <div class="About__div">
+                <h1>PROJECTS</h1>
+                <div class="span__parent"> <span style="margin-left:130px;"> PROJECTS</span></div>
+               </div>
+
+          <div class="projectDiv">
+            <div class="videoBox" >
+               <video src="feedback.webm" controls autoplay></video>
+            </div>
+            <div class="box">
+                <div class="inBox">
+                    <h2>Feedback App</h2>
+                    <p>In this Website I used Html,css,js And Node js and Mysql</p>
+                    <a href="https://github.com/mathav18/product-feedback-app.git" target="_blank"><button >View Project</button></a>
+                </div>
+            </div>
+
+
+            <div class="box" >
+                <div class="inBox">
+                    <h2>Chat App</h2>
+                    <p>In this Website I used Html,css,js,socket.io</p>
+                   <a href="https://github.com/mathav18/Chat-App.git" target="_blank"> <button >View Project</button></a>
+                </div>
+            </div>
+
+            <div class="videoBox" >
+                <video src="chat.webm" controls autoplay></video>
+            </div>
+
+
+
+
+
+
+           
+                <div class="videoBox" >
+                    <video src="notes.webm" controls autoplay></video>
+                </div>
+          
+            <div class="box">
+                <div class="inBox">
+                    <h2>Notes</h2>
+                    <p>In this Website I used Html,css,js And Node js and Mysql</p>
+                   <a href="https://github.com/mathav18/NoteBook.git" target="_blank"><button >View Project</button></a> 
+                </div>
+            </div>
+
+
+
+
+            <div class="box" >
+                <div class="inBox">
+                    <h2>Entertainment App</h2>
+                    <p>In this Website I used Html,css,js And Node js and Mysql</p>
+                    <a href="https://github.com/mathav18/entertainment-web-app.git" target="_blank"><button >View Project</button></a>
+                </div>
+            </div>
+
+            <div class="videoBox" >
+                <video src="movie.webm" controls autoplay></video>
+            </div>
+
+
+
+
+            <div class="videoBox" >
+                <video src="invoice.webm" controls autoplay></video>
+            </div>
+
+         
+                <div class="box">
+                    <div class="inBox">
+                        <h2>Invoice App</h2>
+                        <p>In this Website I used Html,css,js And Node js and Mysql</p>
+                       <a href="https://github.com/mathav18/Invoice-app.git" target="_blank"> <button >View Project</button></a>
+                    </div>
+                </div>
+
+
+
+
+                <div class="box" >
+                    <div class="inBox">
+                        <h2>pomodora</h2>
+                        <p>This project is timer. I used HTML, along with CSS  and JavaScript and Aysn function </p>
+                        <a href="https://dulcet-beijinho-050fca.netlify.app/" target="_blank"><button >View Project</button></a>
+                    </div>
+                </div>
+    
+                <div class="videoBox" >
+                    <video src="pomo.webm" controls autoplay></video>
+                </div>
+
+
+
+
+
+
+
+
+<div class="smallProject" >
+      <div class="child" style="background-image:url(colorhunt.jpg);" onmouseenter="show(this)" onmouseleave="hide(this)">
+        <div class="test" >
+            <div class="demo">
+            <h3>Color Hunt</h3>
+            <p>In this website I used<br> HTML,CSS,JS</p>
+            <a href="https://color-popular.mathavanc.repl.co/" target="_blank"><button>View</button></a>
+            
+        </div>
+        </div>
+    </div>
+
+      <div class="child" style="background-image:url(folio-1.jpg); height:250px" onmouseenter="show(this)" onmouseleave="hide(this)">
+        <div class="test" >
+            <div class="demo">
+                <h3>Job List</h3>
+                <p>In this website I used<br> HTML,CSS,JS</p>
+                <a href="https://dazzling-sprinkles-eab379.netlify.app/" target="_blank"><button>View</button></a>
+                
+            </div></div>
+    </div>
+
+
+    <div class="child" style="background-image:url(pattern.png);height:280px;" onmouseenter="show(this)" onmouseleave="hide(this)">
+        <div class="test" >
+            <div class="demo">
+                <h3>Pattern</h3>
+                <p>In this website I used<br>basic JavaScript</p>
+                <a href="https://loops.mathavanc.repl.co/" target="_blank"> <button>View</button></a>
+               
+            </div></div>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="smallProject" >
+    <div class="child" style="background-image:url(counrty.jpeg);height:280px;" onmouseenter="show(this)" onmouseleave="hide(this)">
+        <div class="test" >
+            <div class="demo">
+                <h3>Country Details</h3>
+                <p>In this website i used <br>React js</p>
+                <a href="https://github.com/mathav18/ApiCountry.git" target="_blank">
+                     <button>View</button></a>
+            </div></div>
+    </div>
+
+
+
+    <div class="child" style="background-image:url(img-06.jpg);" onmouseenter="show(this)" onmouseleave="hide(this)">
+        <div class="test" > 
+            <div class="demo">
+                <h3>Music Player</h3>
+                <p>In this website I used<br> HTML,CSS,JS</p>
+                <a href="https://music-player.mathavanc.repl.co/" target="_blank"><button>View</button></a>
+                
+            </div> </div>
+    </div>
+
+
+    <div class="child" style="background-image:url(git.jpg); height:250px" onmouseenter="show(this)" onmouseleave="hide(this)">
+        <div class="test" >
+            <div class="demo">
+                <h3>Githup </h3>
+                <p>In this website I used<br> HTML,CSS,JS and API</p>
+                <a href="https://github.com/mathav18/githupProject" target="_blank"><button style="color:white;border: 1px solid white;" >View</button></a>
+            </div></div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<div class="smallProject">
+    <div class="child" style="background-image:url(calculator.jpg);height:250px;"onmouseenter="show(this)" onmouseleave="hide(this)">
+        <div class="test" >
+            <div class="demo">
+                <h3>calculator</h3>
+                <p>In this website I used<br> HTML,CSS,JS</p>
+                <a href="https://calculator.mathavanc.repl.co/" target="_blank"> <button>View</button></a>
+            </div></div>
+    </div>
+
+
+    <div class="child" style="background-image:url(tipcalc.jpg);height:280px;" onmouseenter="show(this)" onmouseleave="hide(this)">
+        <div class="test" >
+            <div class="demo">
+                <h3>Tip calculator</h3>
+                <p>In this website I used<br> HTML,CSS,JS</p>
+                <a href="https://tip-calculator.mathavanc.repl.co/" target="_blank"> <button>View</button></a>
+               
+            </div></div>
+    </div>
+
+
+    <div class="child" style="background-image:url(URLshortener.jpg);" onmouseenter="show(this)" onmouseleave="hide(this)">
+        <div class="test" > 
+            <div class="demo">
+                <h3>Url Sorter</h3>
+                <p>In this website I used<br> HTML,CSS,JS and API</p>
+                <a href="https://ornate-wisp-26294e.netlify.app" target="_blank"><button>View</button></a>
+            </div> </div>
+    </div>
+
+    
+</div>
+
+
+
+
+
+<div class="smallProject">
+    <div class="child" style="background-image:url(password.jpg);height:280px;" onmouseenter="show(this)" onmouseleave="hide(this)">
+        <div class="test" >
+            <div class="demo">
+                <h3>password Generator</h3>
+                <p>In this website I used<br> HTML,CSS,JS</p>
+                <a href="https://symphonious-valkyrie-501f59.netlify.app/" target="_blank"> <button>View</button></a>
+               
+            </div></div>
+    </div>
+
+
+
+    <div class="child" style="background-image:url(wether.webp);" onmouseenter="show(this)" onmouseleave="hide(this)">
+        <div class="test" > 
+            <div class="demo">
+                <h3>Weather App</h3>
+                <p>In this website i used <br>React js</p>
+                <a href="https://github.com/mathav18/weather.git" target="_blank"><button>View</button></a>
+            </div> </div>
+    </div>
+
+    
+
+
+
+    <div class="child" style="background-image:url(layout.jpg);height:250px;"onmouseenter="show(this)" onmouseleave="hide(this)">
+        <div class="test" >
+            <div class="demo">
+                <h3>Layout</h3>
+                <p>In this website I used<br> HTML,CSS,JS</p>
+                <a href="https://blocks-1.mathavanc.repl.co/" target="_blank"> <button>View</button></a>
+            </div></div>
+    </div>
+
+</div>
+
+
+          </div>
+             </div>
+              
+      
+
+
+
+
+        <div class="about" id="contactparent">
+            <div class="About__div">
+                <h1>CONTACT</h1>
+                <div class="span__parent"> <span >CONTACT ME</span></div>
+               </div>
+               <div class="contact__parent">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Your Email">
+                <input type="text" placeholder="Subject" style="width:885px;height: 100px;">
+                <textarea placeholder="Message"></textarea>
+                <button>Send Message</button>
+               </div>
+
+            
+
+
+        </div>
+    </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="script.js"></script>
+</body>
+</html>
