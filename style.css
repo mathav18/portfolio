@@ -73,11 +73,9 @@ html,body{
 .home{
     width:100%;
     height: 100%;
+     background-image: url('right-angle-frame-abstract-background-arrowhead-black-vector.jpg');
+     background-size: 100% 100%;
    
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100%;
-    place-items: center;
 }
 .home img{
     width:400px;
@@ -281,14 +279,31 @@ html,body{
 .inBox p{
     font-size:20px;
     color:#5e5e5e;
-    word-spacing:20px;
-    line-height: 40px;
+
+    line-height: 35px;
 }
 
 .inBox h2{
     font-size:40px;
     color:rgb(0, 0, 0);
    
+}
+.Tech{
+    width:400px;
+   
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+
+}
+.Tech span{
+    color:rgb(255, 255, 255);
+    background-color: #000000;
+    padding: 10px;
+    height: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+
 }
 .inBox button{
     width:180px;
