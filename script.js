@@ -185,7 +185,7 @@ projectFilter()
 function projectFilter(e){
     let arr=[];
     let eleArr=document.querySelectorAll('.fil');
-    console.log(true)
+
     for(let i of eleArr){
         i.style.background='none';
         i.style.color='black';
@@ -194,6 +194,13 @@ function projectFilter(e){
             i.style.color='white';
             console.log(e)
         }
+    }
+    if(e==undefined){
+        eleArr[0].style.background='black';
+        eleArr[0].style.color='white';
+        arr=reactArr
+        filter(arr)
+        return"";
     }
 
     if(e.innerText=='REACT JS'||e==undefined){
