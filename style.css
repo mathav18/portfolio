@@ -1,5 +1,6 @@
 html,body{
-    width: 100%;height: 100%;margin: 0;font-family:sans-serif; 
+    width: 100%;height: 100%;margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
     background: #444444;
    
 }
@@ -492,15 +493,27 @@ font-size:60px;
     align-items: center;
    
 }
-.query__parent span{
+.fil{
    
     padding:16px;
     border-radius: 10px;
     font-size: 30px;
     color:rgb(0, 0, 0);
-    border: 2px solid black;
+  
 
    
+}
+
+.fil:hover{
+    border: 2px solid black;
+}
+.fil2{
+   
+    padding:16px;
+    border-radius: 10px;
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+  
 }
 
 
