@@ -273,6 +273,7 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 .inBox{
     width:100%;
@@ -593,3 +594,39 @@ font-size:60px;
   transform: translateY(-2px);
 }
 
+
+.conduct__bottom{
+    width:94%;
+    height: 100px;
+    background-color: #444444;
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.logo{
+
+    height:60px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.angle{
+    width:0px;
+    height: 0px;
+ 
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 40px solid rgb(255, 255, 255);
+    
+}
+.angle2{
+    width:0px;
+    height: 0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 40px solid rgb(255, 255, 255);
+    
+}
