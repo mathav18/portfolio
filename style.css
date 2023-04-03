@@ -192,7 +192,7 @@ html,body{
   
 }
 .name__percentage{
-    width:90%;
+    width:80%;
     height:90%;
    
 }
@@ -212,15 +212,22 @@ html,body{
     height:30px;
     background-color: #e4e4e4;
     border-radius: 20px;
+ 
 }
 .percentage{
    
     height:100%;
     background: #000000;
     border-radius: 20px;
-    width:90%;
+    width:80%;
 }
-
+@keyframes grow{
+    from{
+        width:0%;
+    }to{
+        width:100%;
+    }
+}
 .projects__parent{
     width:100%;
   
@@ -628,5 +635,60 @@ font-size:60px;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
     border-bottom: 40px solid rgb(255, 255, 255);
+
+}
+.logo img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+}
+i{
+    color:rgb(204, 204, 204);
+    font-size: 30px;
+    padding-right: 6px;
     
 }
+span{
+    font-size: 25px;
+    color:#fff;
+    padding-right: 20px;
+}
+
+
+.conduct__bottom h1{
+    color:#e4e4e4;
+}
+
+
+
+@keyframes type {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* Apply the animation to the element */
+  #animate__text {
+    overflow: hidden;
+    white-space: nowrap;
+   
+    animation: type 9s steps(60, end)  infinite;
+  
+  }
+  
+  /* Set the cursor blinking */
+  #animate__text::after {
+    content: "|";
+    display: inline-block;
+    animation: blink 0.7s infinite alternate;
+  }
+  
+  /* Define the cursor blinking animation */
+  @keyframes blink {
+    to {
+      opacity: 0;
+    }
+  }
