@@ -93,7 +93,7 @@ let reactArr=[
         'title':'Myteam Website',
         'img':'myteam.png',
        
-        'link':'https://enchanting-biscochitos-a212cc.netlify.app/contact'
+        'link':'https://enchanting-biscochitos-a212cc.netlify.app/'
     },
     {
         'title':'Country Details',
