@@ -188,15 +188,15 @@ function projectFilter(e){
 
     for(let i of eleArr){
         i.style.background='none';
-        i.style.color='black';
+        i.style.color='#787878';
         if(i==e){
-            i.style.background='black';
+            i.style.background='#787878';
             i.style.color='white';
             console.log(e)
         }
     }
     if(e==undefined){
-        eleArr[0].style.background='black';
+        eleArr[0].style.background='#787878';
         eleArr[0].style.color='white';
         arr=reactArr
         filter(arr)
