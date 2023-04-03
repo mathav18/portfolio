@@ -71,12 +71,18 @@ html,body{
     background-color: #000000;
     color: rgb(255, 255, 255);
 }
+.empty__parent{
+    width:100%;
+    height: 100%;
+    background: linear-gradient(0deg,rgba(44,44,44,.2),rgba(224,23,3,.6));
+}
 .home{
     width:100%;
     height: 100%;
      background-image: url('header.jpg');
      background-size: 100% 100%;
-   
+z-index: -1;
+transform: translate3d(0px, 0px, 0px);
      display: flex;
      align-items: center;
      justify-content: center;
@@ -95,7 +101,7 @@ html,body{
     
 }
 .name__role p{
-    color:rgb(255, 157, 0);
+    color:rgb(255, 28, 28);
     font-size:40px;
 }
 .name__role h1{
@@ -172,7 +178,7 @@ html,body{
     align-items: end;
 }
 .details__bottom span{
-    color: rgb(255, 157, 0);
+    color:rgb(255, 28, 28);
     font-size: 30px;
 }
 .email__div{
