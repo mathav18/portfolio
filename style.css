@@ -558,13 +558,31 @@ font-size:60px;
     /* background-image: url('colorhunt.jpg'); */
     border-radius: 10px;
     background-size: 100% 100%;
+    transform:
+    perspective(750px)
+    translate3d(0px, 0px, -200px)
+    rotateX(27deg)
+    scale(0.9, 0.9);
+  border-radius: 20px;
+  border: 5px solid #e6e6e6;
+  box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+  transition: 0.4s ease-in-out transform;
+  animation: drop 1s;
+
+}
+@keyframes drop{
+    from{
+        height: 0px;
+    }to{
+        height: 300px;
+    }
 }
 .dropdown{
     width:100%;
     height:100%;
     border-radius: 10px;
     display: none;
-    background: linear-gradient(189deg, rgba(136,136,136,0.8) 38%, rgb(130, 130, 130,0.5) 100%);
+    /* background: linear-gradient(189deg, rgba(136,136,136,0.8) 38%, rgb(130, 130, 130,0.5) 100%); */
     cursor: pointer;
    
     
@@ -572,6 +590,11 @@ font-size:60px;
 .project__temPlate:hover  .dropdown {
    display: block;
   
+}
+.project__temPlate:hover{
+  
+        transform: translate3d(0px, 0px, -250px);
+      
 }
 .drop{
     width:100%;
