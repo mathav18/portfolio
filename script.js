@@ -181,22 +181,22 @@ let apiArr=[
 let javaArr=[
     {
         'title':'Table,Fact,pattern',
-        'img':'java.png',
+        'img':'',
         'link':'https://github.com/mathav18/JAVA-Assignments/blob/master/Ass1/Ass1.java'
     },
     {
         'title':'Java extends',
-        'img':'java.png',
+        'img':'',
         'link':'https://github.com/mathav18/JAVA-Assignments/blob/master/Ass2/Ass2.java'
     },
     {
         'title':'StringBuffer & StringBuilder ',
-        'img':'java.png',
+        'img':'',
         'link':'https://github.com/mathav18/JAVA-Assignments/blob/master/Ass3/Ass3.java'
     },
     {
         'title':'Matrix',
-        'img':'java.png',
+        'img':'',
         'link':'https://github.com/mathav18/JAVA-Assignments/blob/master/Ass4/ASS4.java'
     }
 ]
