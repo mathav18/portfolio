@@ -173,12 +173,33 @@ let apiArr=[
     },
     {
         'title':'Weather App',
-        'img':'wether.webp',
+        'img':'java',
         'link':'https://boisterous-alfajores-a7da48.netlify.app/'
     }
 ]
 
-
+let javaArr=[
+    {
+        'title':'Table,Fact,pattern',
+        'img':'731_java.jpg',
+        'link':'https://github.com/mathav18/JAVA-Assignments/blob/master/Ass1/Ass1.java'
+    },
+    {
+        'title':'Java extends',
+        'img':'731_java.jpg',
+        'link':'https://github.com/mathav18/JAVA-Assignments/blob/master/Ass2/Ass2.java'
+    },
+    {
+        'title':'StringBuffer & StringBuilder',
+        'img':'731_java.jpg',
+        'link':'https://github.com/mathav18/JAVA-Assignments/blob/master/Ass3/Ass3.java'
+    },
+    {
+        'title':'Matrix',
+        'img':'731_java.jpg',
+        'link':'https://github.com/mathav18/JAVA-Assignments/blob/master/Ass4/ASS4.java'
+    }
+]
 
 
 projectFilter()
@@ -214,6 +235,9 @@ function projectFilter(e){
     }
     if(e.innerText=='API'){
         arr=apiArr
+    }
+    if(e.innerText=='JAVA'){
+        arr=javaArr
     }
    filter(arr)
 }
