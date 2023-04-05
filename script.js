@@ -173,7 +173,7 @@ let apiArr=[
     },
     {
         'title':'Weather App',
-        'img':'java',
+        'img':'wether.webp',
         'link':'https://boisterous-alfajores-a7da48.netlify.app/'
     }
 ]
@@ -181,22 +181,22 @@ let apiArr=[
 let javaArr=[
     {
         'title':'Table,Fact,pattern',
-        'img':'731_java.jpg',
+        'img':'',
         'link':'https://github.com/mathav18/JAVA-Assignments/blob/master/Ass1/Ass1.java'
     },
     {
         'title':'Java extends',
-        'img':'731_java.jpg',
+        'img':'',
         'link':'https://github.com/mathav18/JAVA-Assignments/blob/master/Ass2/Ass2.java'
     },
     {
-        'title':'StringBuffer & StringBuilder',
-        'img':'731_java.jpg',
+        'title':'StringBuffer & StringBuilder ',
+        'img':'',
         'link':'https://github.com/mathav18/JAVA-Assignments/blob/master/Ass3/Ass3.java'
     },
     {
         'title':'Matrix',
-        'img':'731_java.jpg',
+        'img':'',
         'link':'https://github.com/mathav18/JAVA-Assignments/blob/master/Ass4/ASS4.java'
     }
 ]
