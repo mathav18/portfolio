@@ -722,3 +722,9 @@ span{
       opacity: 0;
     }
   }
+  .java{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+  }

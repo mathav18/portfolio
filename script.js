@@ -181,22 +181,22 @@ let apiArr=[
 let javaArr=[
     {
         'title':'Table,Fact,pattern',
-        'img':'',
+      
         'link':'https://github.com/mathav18/JAVA-Assignments/blob/master/Ass1/Ass1.java'
     },
     {
         'title':'Java extends',
-        'img':'',
+     
         'link':'https://github.com/mathav18/JAVA-Assignments/blob/master/Ass2/Ass2.java'
     },
     {
         'title':'StringBuffer & StringBuilder ',
-        'img':'',
+    
         'link':'https://github.com/mathav18/JAVA-Assignments/blob/master/Ass3/Ass3.java'
     },
     {
         'title':'Matrix',
-        'img':'',
+      
         'link':'https://github.com/mathav18/JAVA-Assignments/blob/master/Ass4/ASS4.java'
     }
 ]
@@ -238,6 +238,8 @@ function projectFilter(e){
     }
     if(e.innerText=='JAVA'){
         arr=javaArr
+        Javafilter(arr);
+        return"";
     }
    filter(arr)
 }
@@ -251,6 +253,27 @@ parent.innerHTML="";
              <div class="dropdown">
                  <div class="drop">
                  <h3>${arr[i].title}</h3>
+                <a href='${arr[i].link}' target=blank><button class="button-66">View</button></a>
+                 
+             </div>
+             </div>
+         </div>`
+       
+    }
+   
+}
+
+function Javafilter(arr){
+    let parent=document.querySelector('.divArea');
+parent.innerHTML="";
+    for(let i=0;i<arr.length;i++){
+             parent.innerHTML+=` <div class="project__temPlate" style=background-Image:url('${arr[i].img}')>
+             <div class="java">
+             <h3>${arr[i].title}</h3>
+             </div>
+             <div class="dropdown">
+                 <div class="drop">
+               
                 <a href='${arr[i].link}' target=blank><button class="button-66">View</button></a>
                  
              </div>
